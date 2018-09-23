@@ -1,0 +1,18 @@
+{
+    "name": "chenjie/hello",
+    "description": "demo package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenzhaoguang",
+            "email": "chenzhaoguang00@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    }
+}
